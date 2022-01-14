@@ -10,10 +10,10 @@ const b2cPolicies = {
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com",
+            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com/B2C_1_signupsignin-mdet",
         },
         editProfile: {
-            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com"
+            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com/B2C_1_profileediting-mdet"
         }
     },
     authorityDomain: "morganderetssg.b2clogin.com"
