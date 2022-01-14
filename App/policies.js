@@ -5,16 +5,16 @@
  */
 const b2cPolicies = {
     names: {
-        signUpSignIn: "B2C_1_susi_reset_v2",
-        editProfile: "B2C_1_edit_profile_v2"
+        signUpSignIn: "B2C_1_signupsignin-mdet",
+        editProfile: "B2C_1_profileediting-mdet"
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/B2C_1_susi_reset_v2",
+            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com",
         },
         editProfile: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/B2C_1_edit_profile_v2"
+            authority: "https://morganderetssg.b2clogin.com/morganderetssg.onmicrosoft.com"
         }
     },
-    authorityDomain: "fabrikamb2c.b2clogin.com"
+    authorityDomain: "morganderetssg.b2clogin.com"
 }
