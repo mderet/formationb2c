@@ -9,6 +9,7 @@
 const msalConfig = {
     auth: {
       clientId: "138c79f0-6876-4c61-a5b4-5ba6b7ea3240", // This is the ONLY mandatory field; everything else is optional.
+      clientSecret: "26759a1a-ce9f-44bf-a081-257dfbcc0670", // This is the ONLY mandatory field; everything else is optional.
       authority: b2cPolicies.authorities.signUpSignIn.authority, // Choose sign-up/sign-in user-flow as your default.
       knownAuthorities: [b2cPolicies.authorityDomain], // You must identify your tenant's domain as a known authority.
       redirectUri: "https://webappb2c-mdet.azurewebsites.net", // You must register this URI on Azure Portal/App Registration. Defaults to "window.location.href".
